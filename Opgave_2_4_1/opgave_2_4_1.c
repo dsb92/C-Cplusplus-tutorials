@@ -1,0 +1,29 @@
+/* Skriv et program der udskriver den lille tabel pænt på skærmen */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int n, i;
+
+for(n = 1; n <= 10; n++)
+{
+     printf("%d%s\n", n, "-tabellen: ");
+	 printf("\n");
+
+
+for(i = 1; i <= 10; i++)
+  {
+	 printf("%d%s%d", n, " * ", i);
+     printf("%s%d\n", " = ", n*i);
+  }
+
+printf("\n");
+
+}
+
+return 0;
+
+}

@@ -1,0 +1,9 @@
+Error c:\lcc\projects\hallo\hallo.c: 7  illegal character '\'
+Error c:\lcc\projects\hallo\hallo.c: 7  syntax error; found `n' expecting ')'
+Error c:\lcc\projects\hallo\hallo.c: 7  Syntax error; missing semicolon before  `n'
+Error c:\lcc\projects\hallo\hallo.c: 7  undeclared identifier 'n'
+Warning c:\lcc\projects\hallo\hallo.c: 7  Statement has no effect
+Error c:\lcc\projects\hallo\hallo.c: 7  Syntax error; missing semicolon before  `)'
+Error c:\lcc\projects\hallo\hallo.c: 7  illegal statement termination
+Error c:\lcc\projects\hallo\hallo.c: 7  skipping `)'
+Warning c:\lcc\projects\hallo\hallo.c: 7  possible usage of n before definition

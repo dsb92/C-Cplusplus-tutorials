@@ -1,0 +1,15 @@
+/* Leg med det jeg har prøvet indtil nu. Eksempelvil at placere \n andre steder inden for gåsøjnene, for at se hvad der sker. Prøv også
+at løse opgaverne*/
+
+#include <stdio.h>  /*kompileren inkluderer en fil ved navn stdio.h */
+
+int main()	/* en funktion, er sker alt handlingen. */
+
+{
+
+printf("Jeg tænker \n, ergo er jeg");  /* printf er en funktion fra stdio.h-biblioteket. Udskriver det der står i argumentlisten på skærmen. */
+return 0;
+
+}
+
+/* linjeskift: \n. */

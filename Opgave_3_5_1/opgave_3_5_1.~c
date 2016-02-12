@@ -1,0 +1,39 @@
+/* Tilpas programmet dato1.c således at det også kan bestemme afstanden med datoer i forskellige år. */
+
+#include <stdio.h>
+
+int dageiMaaned[2][13] =
+{ {0, 31, 28 ,31,30 ,31 ,30 ,31,31,30,31 ,30,31},
+  {0, 31, 29 ,31 ,30 ,31 ,30 ,31 ,31 ,30 ,31 ,30 ,31} };
+
+
+int skudaar(int aar)
+{  if( (aar % 400) == 0 || (aar % 4) == 0 &&
+       (aar % 100) != 0)
+     return 1;
+  else
+     return 0;
+}
+
+int julianskDato(int aar, int mdr, int dag)
+{  int i;
+
+
+   for (i = 1; i <mdr && i <aar; i++)
+	   if(aar != 0)
+		   dag += dageiMaaned[skudaar(aar)][i];
+		else
+			dag += dageiMaaned[skudaar(aar)][i];
+  	return dag;
+
+
+}
+
+int main()
+{  int a = julianskDato(2002, 7, 3);
+   int b = julianskDato(2000, 3, 1);
+
+printf("%d\n", a - b);
+return 0;
+
+}

@@ -1,0 +1,2 @@
+opgave_1_1_1.obj: multiple definition of _main
+first definition is in file opgave_1_1_2.obj

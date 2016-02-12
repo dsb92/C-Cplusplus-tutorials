@@ -1,0 +1,29 @@
+/* Tilpas programmet array1.c således at der udskrives startende med det sidste element i arrayet(altså baglæns) */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+int i;
+int dippedut[5];    // Hvis vi ændre det til noget mindre, vil der ske en fejl.
+				    //Hvis vi ændre det til noget større, er der plads til flere elementer.
+
+dippedut[0] = 32;
+dippedut[1] = 3;
+dippedut[2] = 17;
+dippedut[3] = 27;
+dippedut[4] = 7;
+
+
+for (i = 0; i < 5; i++)		// Hvis vi ændre tallet 5 til noget mindre, vil ikke alle elementer blive udskrevet.
+   printf("%d\n", dippedut[i]);  // og hvis vi ændre tallet 5 til noget større, vil der blive skrevet noget ubestemt ud af arrayet.
+
+return 0;
+
+}
+
+/* Hvis vi ændre noget i sted i programmet, sker der også noget et andet sted(er) = magiske tal */
+/*Udvid programmet array1.c således at der kan være 5 dippedutter. (Opgave_3_1_2) laves også i denne opgave for at spare tid :-)*/

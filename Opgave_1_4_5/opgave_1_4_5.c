@@ -1,0 +1,23 @@
+/* Udvid programmet fra 1.4.4 således, at det skriver "nu er vi næsten færdige" på skærmen, når variablen bliver 90. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int i;
+
+for(i = 1; i <= 100; i++)
+   if(i == 50)
+     printf("%d%s\n", i, ": nu er vi halvvejs!");
+
+   else if( i == 90)
+	   printf("%d%s\n", i, ": nu er vi næsten færdige!");
+
+   else
+       printf("%d\n", i);
+
+return 0;
+
+}

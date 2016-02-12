@@ -1,0 +1,21 @@
+/* Omskriv programmet while1.c således at det bruger en for-løkke i stedet for en while-løkke. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+	int i;
+		printf("Klar til affyring!\n");
+		for(i = 3; i > 0; i--)
+		    {
+				printf("%d\n", i);
+			}
+
+		printf("FYR!\n");
+
+		return 0;
+
+}
+

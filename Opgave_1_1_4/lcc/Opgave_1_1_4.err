@@ -1,0 +1,5 @@
+c:\lcc\projects\opgave_1_1_4\lcc\__check_opgave_1_1_4.c:
+Warning lcc\__check_opgave_1_1_4.c: 10  old-style function definition for 'main'
+Warning lcc\__check_opgave_1_1_4.c: 10  missing prototype for 'main'
+Warning lcc\__check_opgave_1_1_4.c: 12  missing prototype for printf
+Warning lcc\__check_opgave_1_1_4.c: 12  Missing prototype for 'printf'

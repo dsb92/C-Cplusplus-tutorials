@@ -1,0 +1,26 @@
+/* Skriv et program der beregner, hvor langt der er kørt efter 1,2..9 timer med en fast hastighed af 100 km/timen.
+   Resultatet skal udskrives på skærmen. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int t;
+int d;
+int KMITimen = 100;
+
+
+for (d = 1; d<=9; d++)
+{
+	t = d * KMITimen;
+	printf("%s%d", "Antal km efter ", d);
+	printf("%s%d\n", " timer : ", t);
+
+}
+
+return 0;
+}
+
+

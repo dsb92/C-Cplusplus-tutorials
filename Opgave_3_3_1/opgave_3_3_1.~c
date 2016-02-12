@@ -1,0 +1,25 @@
+/* Omskriv programmet pointer1.c således at pegepind ikke benyttes, i stedet skal alfabet behandles som en pointer
+   og løbende tælles en op inde i løkken */
+
+#include <stdio.h>
+
+int main()
+
+{
+
+char alfabet[]= "abcdefg";
+char *alfabet;
+
+alfabet = &tekst[0];
+
+
+while (alfabet++ != '\0')
+{
+
+  printf("%s\n", alfabet);
+
+}
+
+return 0;
+
+}

@@ -1,0 +1,3 @@
+c:\lcc\projects\opgave_2_8_1\lcc\__check_opgave_2_8_1.c:
+Warning lcc\__check_opgave_2_8_1.c: 13  old-style function definition for 'main'
+Warning lcc\__check_opgave_2_8_1.c: 13  missing prototype for 'main'

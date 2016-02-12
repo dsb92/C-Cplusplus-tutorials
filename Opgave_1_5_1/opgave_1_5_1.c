@@ -1,0 +1,21 @@
+/* Skriv et program der er en blanding af input1.c og input2.c. Det betyder, at programmet skal udskrive
+   input på skærmen, tælle antallet af tegn og udskrive det til sidst. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+char ind;
+int taeller = 0;
+
+while ((ind = getchar()) != EOF)
+	printf("%c", ind);
+		taeller ++;
+
+printf("%s%d%s", "Der var ", taeller, " byte i filen.");
+
+return 0;
+
+}

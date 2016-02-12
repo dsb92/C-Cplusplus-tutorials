@@ -1,0 +1,49 @@
+/* Skriv et program der indeholder funktionen int menu (). Funktionen skal udskrive en menu på skærmen, og vente på indtastning. Når brugeren har indtastet sit valg,
+   skal funktionen returnere valgt. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+char ind;
+
+printf("%s\n", "Vaelg din yndlingsfarve: ");
+
+printf("%s\n", "1 = Blaa ");
+printf("%s\n", "2 = Grøn ");
+printf("%s\n", "3 = Roed ");
+printf("%s\n", "4 = Gul ");
+printf("%s\n", "5 = Sort ");
+printf("%s\n", "6 = Andet ");
+
+ind = getchar();
+
+
+switch (ind)
+{
+   case '1': printf("%s\n", "Din yndlingsfarve er blå");
+   break;
+   case '2': printf("%s\n", "Din yndlingsfarve er grøn");
+   break;
+   case '3': printf("%s\n", "Din yndlingsfarve er roed");
+   break;
+   case '4': printf("%s\n", "Din yndlingsfarve er gul");
+   break;
+   case '5': printf("%s\n", "Din yndlingsfarve er sort");
+   break;
+   case '6':
+	   {
+		   char ind2 = getchar();
+		   printf("%c\n", ind2);
+		}
+	break;
+
+
+default: printf("%s\n", "Farven er ikke blandt mulighederne. Vælg venligst nr 6. og skriv en anden farve");
+}
+
+return 0;
+
+}

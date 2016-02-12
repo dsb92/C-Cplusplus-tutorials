@@ -1,0 +1,15 @@
+/* Variabler og formateringstrenge */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int minVariabel;
+
+minVariabel = 1;
+printf("%d\n", minVariabel);
+return 0;
+
+}

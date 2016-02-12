@@ -1,0 +1,12 @@
+/* Skriv et program der udskriver dit fornavn på én linie og dit efternavn på efterfølgende linie */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+printf("David\n Buhauer");
+return 0;
+
+}

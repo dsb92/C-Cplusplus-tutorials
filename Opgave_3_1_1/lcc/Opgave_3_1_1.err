@@ -1,0 +1,5 @@
+c:\lcc\projects\opgave_3_1_1\lcc\__check_opgave_3_1_1.c:
+Warning c:\lcc\projects\opgave_3_1_1\lcc\__check_opgave_3_1_1.c: c:\lcc\include\stddef.h: 12  redefinition of 'rsize_t'
+Warning c:\lcc\projects\opgave_3_1_1\lcc\__check_opgave_3_1_1.c: c:\lcc\include\safelib.h: 12  Previous definition of 'rsize_t' here
+Warning lcc\__check_opgave_3_1_1.c: 8  old-style function definition for 'main'
+Warning lcc\__check_opgave_3_1_1.c: 8  missing prototype for 'main'

@@ -1,0 +1,31 @@
+cpp: c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c:3 Could not find include file "support1.h"
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 6  illegal use of incomplete type 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 6  undefined size for parameter 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4 person'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 11  missing prototype for hentLinie
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 11  Missing prototype for 'hentLinie'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 11  left operand of . has incompatible type 'int'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 13  Missing prototype for 'hentLinie'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 13  left operand of . has incompatible type 'int'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 15  Missing prototype for 'hentLinie'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  undeclared identifier 'personer'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  undeclared identifier 'i'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  type error: pointer expected
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  left operand of . has incompatible type 'int'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  missing prototype for atoi
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  Missing prototype for 'atoi'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 17  illegal return type; found 'int' expected 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  possible usage of i before definition
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 16  possible usage of personer before definition
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 21  undefined size for parameter 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4 person'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 22  left operand of . has incompatible type 'int'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 22  printf argument mismatch for format s. Expected char pointer got int
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 23  left operand of . has incompatible type 'int'
+Warning c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 23  printf argument mismatch for format s. Expected char pointer got int
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 24  left operand of . has incompatible type 'int'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 33  undefined size for 'incomplete array of incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4 personer'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 36  unknown size for type 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 36  illegal use of incomplete type 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 36  unknown size for type 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 36  operands of = have illegal types 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4' and 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 39  syntax error; found `udskrivPerson' expecting ')'
+Error c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c: 39  unknown size for type 'incomplete struct personType defined at c:\lcc\projects\opgave_4_2_1\lcc\lcc\lcc\struct4.c 4'

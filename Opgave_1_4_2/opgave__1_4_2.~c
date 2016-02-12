@@ -1,0 +1,17 @@
+/* Omskriv programmet for1.c således, at det bruger en do... while-løkke i stedet for en for-løkke. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int i = 0;
+
+do
+  printf("%s%d\n", "i er nu: ", i++);
+while(i < 10);
+return 0;
+
+}
+

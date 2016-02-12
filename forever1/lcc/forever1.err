@@ -1,0 +1,3 @@
+Warning c:\lcc\projects\forever1\forever1.c: 12  overflow in char comparison with constant 300
+Warning c:\lcc\projects\forever1\forever1.c: 13  printf argument mismatch for format s. Expected char pointer got int
+Warning c:\lcc\projects\forever1\forever1.c: 13  printf: missing argument for format d

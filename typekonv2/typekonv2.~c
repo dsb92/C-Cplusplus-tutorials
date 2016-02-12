@@ -1,0 +1,15 @@
+/* Programmet viser, hvordan man kan bruge en char til at tælle med på en lidt usædvanlig måde. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+char a;
+
+for (a = 'A'; a <= 'Z'; a++)
+   printf("%c\t%d\n", a, a);
+   return 0;
+
+}

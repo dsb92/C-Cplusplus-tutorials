@@ -1,0 +1,25 @@
+[Hallo3]
+Frame=475 213 1440 760
+StatusBar=0,0,0,0
+Name=Hallo3
+CurrentFile=
+OpenFiles=0
+ProjectPath=
+SourcesDir=
+Defines=
+IncludeFilesCount=0
+Libraries=
+LinkerArgs=
+ProjectTime=202
+MakeName=
+MakeDir=
+Exe=
+DebuggerArguments=
+DbgExeName=
+DbgDir=
+CompilerFlags=8
+ProjectFlags=0
+Useframework=0
+NumberOfBreakpoints=0
+ErrorFile=
+NrOfFileProcessors=0

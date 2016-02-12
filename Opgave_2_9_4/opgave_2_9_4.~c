@@ -1,0 +1,37 @@
+/* Skriv et program der udskriver, hvor langt man er kommet efter 14 minutters kørsel med 60 km/t, 32 minutters kørsel med 80 km/t
+   og til sidst 1½ timers kørsel med 47 km/t. Tip: Brug funktionen fra opgave_2_9_3 */
+
+#include<stdio.h>
+
+float hvorLangt(int hastighed, float tid)
+{
+	return hastighed*tid;
+}
+
+int main()
+
+{
+	int hastighed;
+	float tid;
+
+
+		hastighed = 60;
+		tid = 14.0/60.0;
+
+	printf("%d%c%4.2f%c%4.2f%s\n", hastighed, '*', tid, '=', hvorLangt(hastighed,tid), " kilometer");
+
+
+
+		hastighed = 80;
+		tid = 32.0/60.0;
+	printf("%d%c%4.2f%c%4.2f%s\n", hastighed, '*', tid, '=', hvorLangt(hastighed,tid), " kilometer");
+
+
+
+		hastighed = 47;
+		tid = 1.5;
+	printf("%d%c%4.2f%c%4.2f%s\n", hastighed, '*', tid, '=', hvorLangt(hastighed,tid), " kilometer);
+
+
+	return 0;
+}

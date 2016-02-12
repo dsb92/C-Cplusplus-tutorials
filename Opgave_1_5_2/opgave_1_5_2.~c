@@ -1,0 +1,19 @@
+/* Skriv et program der tæller antallet af mellemrum i input. Resultatet skal udskrives, inden programmet forlades. */
+
+#include<stdio.h>
+
+int main()
+
+{
+
+char ind
+char test = ' ';
+int taeller = 0;
+
+while ((ind = getchar()) != EOF)
+     if (ind == test)
+	taeller++;
+printf("%s%d\n", "Antal mellemrum findes: ", taeller);
+return 0;
+
+}

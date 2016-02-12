@@ -1,0 +1,12 @@
+c:\lcc\projects\opgave_4_1_1\lcc\__check_opgave_4_1_1.c:
+Warning lcc\__check_opgave_4_1_1.c: 14  no type specified. Defaulting to int
+Error lcc\__check_opgave_4_1_1.c: 14  Syntax error; missing semicolon before  `hans'
+Warning lcc\__check_opgave_4_1_1.c: 14  no type specified. Defaulting to int
+Error lcc\__check_opgave_4_1_1.c: 14  syntax error; found "HansHansen" expecting '}'
+Error lcc\__check_opgave_4_1_1.c: 14  skipping "HansHansen"
+Warning lcc\__check_opgave_4_1_1.c: 17  old-style function definition for 'main'
+Warning lcc\__check_opgave_4_1_1.c: 17  missing prototype for 'main'
+Warning lcc\__check_opgave_4_1_1.c: 19  global hans (c:\lcc\projects\opgave_4_1_1\lcc\__check_opgave_4_1_1.c:14) shadowed
+Warning lcc\__check_opgave_4_1_1.c: 22  missing prototype for strcpy
+Warning lcc\__check_opgave_4_1_1.c: 22  Missing prototype for 'strcpy'
+Warning lcc\__check_opgave_4_1_1.c: 23  Missing prototype for 'strcpy'
